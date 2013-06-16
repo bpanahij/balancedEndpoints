@@ -1,0 +1,55 @@
+{
+  "name": "balancedEndpoints",
+  "preferGlobal": false,
+  "version": "0.1.0",
+  "author": "Brian Johnson <brian@pjohnson.info>",
+  "description": "a simple node wrapper for balanced payments API endpoints",
+  "contributors": [
+    {
+      "name": "Brian Johnson",
+      "email": "brian@pjohnson.info"
+    }
+  ],
+  "bin": {
+    "http-server": "./server.js"
+  },
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "vows --spec --isolate"
+  },
+  "main": "./server.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bpanahij/balancedEndpoints.git"
+  },
+  "keywords": [
+    "balanced",
+    "api",
+    "wrapper"
+  ],
+  "dependencies": {
+    "async": "*",
+    "request": "*",
+    "queryString": "*",
+    "https": "*",
+    "underscore": "*",
+    "vows": "*",
+    "assert": "*"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "async": "*",
+    "request": "*",
+    "queryString": "*",
+    "https": "*",
+    "underscore": "*",
+    "vows": "*",
+    "assert": "*"
+  },
+  "bundledDependencies": [
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6"
+  }
+}
